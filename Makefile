@@ -3,11 +3,11 @@ BIN  = add_az_baz_csvfile
 
 # need to include the math library when the math.h header file is used
 #cflags = -O -lm
-cflags = -O 
+cflags = -O -Wall
 #CFLAGS = $(DBG) $(cflags) -arch i386
 #FFLAGS = -O2 -ffixed-line-length-none 
 CFLAGS = $(DBG) $(cflags) 
-FFLAGS = -O2 -ffixed-line-length-none -m64
+FFLAGS = -O2 -ffixed-line-length-none -m64 
 
 FC = gfortran
 CC = gcc
